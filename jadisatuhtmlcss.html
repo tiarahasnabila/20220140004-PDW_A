@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah Kota Yogyakarta</title>
+    <style>
+
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* CSS untuk mengatur layout */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('D:\\dicoding tugas\\static\\tugu.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            height: 100vh;
+            overflow: hidden;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 70%;
+            margin: auto;
+        }
+
+        .article {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #333;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin: 10px;
+            animation: slideIn 1s ease-in-out;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .article:hover {
+            transform: scale(1.05);
+        }
+
+        .aside {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            animation: slideIn 1s ease-in-out;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .aside:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+
+        footer {
+            margin-top: 150px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Animasi fadeIn */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Animasi slideIn */
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+            }
+
+            to {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);">Kota Yogyakarta</h1>
+    </header>
+
+    <main>
+        <aside class="aside">
+            <h2>Tautan Terkait</h2>
+            <ul>
+                <li><a href="https://wa.me/1234567890">WhatsApp</a></li>
+                <li><a href="https://www.instagram.com/3acctayaa/">Instagram</a></li>
+                <img src="assets/img/JOGJA.jpg" alt="Jogja">
+            </ul>
+        </aside>
+
+        <article class="article">
+            <h2>Sejarah</h2>
+            <p>Kota Yogyakarta (Jawa: ꦔꦪꦺꦴꦒꦾꦏꦂꦠ, translit. Ngayogyakarta, pengucapan bahasa Jawa: [kuʈɔ ŋajogjɔˈkart̪ɔ], atau dikenal oleh masyarakat setempat dengan sebutan nama Yogya atau Jogja) adalah ibu kota sekaligus pusat pemerintahan dan perekonomian dari provinsi Daerah Istimewa Yogyakarta, Indonesia. Kota ini adalah kota yang mempertahankan konsep tradisional dan budaya Jawa.</p>
+        </article>
+
+        <article class="article">
+            <h2>Asal Usul</h2>
+            <p>Nama Yogyakarta terambil dari dua kata, yaitu Ayogya atau Ayodhya yang berarti "kedamaian" (atau tanpa perang, a "tidak", yogya merujuk pada yodya atau yudha, yang berarti "perang"), dan Karta yang berarti "baik". Ayodhya merupakan kota yang bersejarah di India di mana wiracarita Ramayana terjadi. Tapak keraton Yogyakarta sendiri menurut babad (misalnya Babad Giyanti) dan leluri (riwayat oral) telah berupa sebuah dalem yang bernama Dalem Gerjiwati; lalu dinamakan ulang oleh Sunan Pakubuwana II sebagai Dalem Ayogya.[7].</p>
+        </article>
+
+        <article class="article">
+            <h2>Makanan Khas</h2>
+            <p>Yogyakarta menjadi salah satu destinasi wisata yang ramai pengunjung. Selain mempunyai tempat yang menarik untuk disambangi, beberapa makanan khas Yogyakarta juga sayang untuk dilewatkan. Salah satu makanan yang popular adalah Gudeg. Makanan ini memiliki cita rasa manis dan gurih yang menggoyang lidah. Selain itu, ada juga sate klatak, bakpia, sate kere dan masih banyak lagi.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
